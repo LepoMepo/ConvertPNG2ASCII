@@ -71,7 +71,7 @@ with Image.open(input_filename) as image:
             cropped_image = bw_image.crop(area)
             cropped_pixels = list(cropped_image.getdata())
             average = statistics.fmean(cropped_pixels)
-            tmp += (gscale1[int(average * (len(gray_scale) - 1) / 255)])
+            tmp += (gray_scale[int(average * (len(gray_scale) - 1) / 255)])
         result.append(tmp)
         tmp = ''
 with open(output_filename, 'w') as f:
