@@ -1,5 +1,5 @@
 # Convert2ASCII
-This is a simple console app to convert images in ASCII art.
+This is a simple console app to convert images to ASCII art.
 
                                                            
                                                   
